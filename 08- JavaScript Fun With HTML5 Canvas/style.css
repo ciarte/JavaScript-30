@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+body {
+  background: #197278;
+}
+.board {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.divi {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 35px solid #0d0c1d;
+  border-radius: 0.5em;
+  width: 800px;
+  height: 600px;
+  margin: 45px auto;
+}
+#draw {
+  border: 2px;
+  cursor: pointer;
+}
